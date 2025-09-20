@@ -37,7 +37,7 @@ const handleAnalyzeImage = async () => {
     const formData = new FormData();
     formData.append("image", selectedFile);
 
-    const response = await fetch("http://localhost:5000/predict", {
+    const response = await fetch("https://sidd-harth011-finalProBack.hf.space/predict", {
       method: "POST",
       body: formData,
     });
