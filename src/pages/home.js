@@ -39,8 +39,8 @@ export default function AgriculturalAIPage() {
             Empower farmers with instant, AI-driven crop disease detection. Upload an image, get precise diagnosis, and
             protect your harvest with confidence.
           </p>
-          <button onClick={() => navigate("/cropXassistant")} className="px-4 py-2 text-sm border border-border rounded-md hover:bg-accent transition-colors">
-              Get Started
+          <button onClick={() => navigate("/solutions")} className="px-4 py-2 text-sm border border-border rounded-md hover:bg-accent transition-colors">
+              Solutions
           </button>
         </div>
       </section>
@@ -174,7 +174,7 @@ export default function AgriculturalAIPage() {
                       combining AI precision with grassroots accessibility to support sustainable farming practices.
                     </p>
                     <div className="pt-4">
-                      <button className="px-6 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors w-full sm:w-auto">
+                      <button onClick={()=>{navigate("/services")}} className="px-6 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors w-full sm:w-auto">
                         Learn More About Our Technology
                       </button>
                     </div>
@@ -228,7 +228,7 @@ export default function AgriculturalAIPage() {
                     </div>
                   </div>
                   <div className="pt-6 border-t border-border/50 mt-6">
-                    <button className="w-full px-6 py-2 border border-border rounded-md hover:bg-accent transition-colors">
+                    <button onClick={()=>{navigate("/demo")}} className="w-full px-6 py-2 border border-border rounded-md hover:bg-accent transition-colors">
                       Schedule a Demo
                     </button>
                   </div>

@@ -7,6 +7,8 @@ import CropsDiseasesPage from "./pages/solutions";
 import SupportPage from "./pages/support";
 import PrivacyPolicyPage from "./pages/privacy_policy"
 import TermsAndConditionsPage from "./pages/terms"
+import ScheduleDemoPage from "./pages/demo";
+import ServicesPage from "./pages/services";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route path="/support" element={<SupportPage />} />
           <Route path="/privacy" element={<PrivacyPolicyPage />} />
           <Route path="/terms" element={<TermsAndConditionsPage />} />
+          <Route path="/demo" element={<ScheduleDemoPage />} />
+          <Route path="/services" element={<ServicesPage />} />
         </Routes>
     </div>
   );
